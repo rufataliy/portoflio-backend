@@ -9,10 +9,10 @@
     "timestamps": true
   },
   "attributes": {
-    "name": {
+    "title": {
       "type": "string"
     },
-    "thumbnail": {
+    "img": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
@@ -22,6 +22,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "path": {
+      "type": "string"
     }
   }
 }
