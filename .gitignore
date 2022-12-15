@@ -2,13 +2,14 @@
 # OS X
 ############################
 
-.DS_Store
-.AppleDouble
-.LSOverride
-Icon
-.Spotlight-V100
-.Trashes
-._*
+v2/.DS_Store
+v2/.AppleDouble
+v2/.LSOverride
+v2/Icon
+v2/.Spotlight-V100
+v2/.Trashes
+v2/._*
+
 
 ############################
 # Linux
@@ -21,93 +22,94 @@ Icon
 # Windows
 ############################
 
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-*.cab
-*.msi
-*.msm
-*.msp
+v2/Thumbs.db
+v2/ehthumbs.db
+v2/Desktop.ini
+v2/$RECYCLE.BIN/
+v2/*.cab
+v2/*.msi
+v2/*.msm
+v2/*.msp
 
 
 ############################
 # Packages
 ############################
 
-*.7z
-*.csv
-*.dat
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.seed
-*.so
-*.swo
-*.swp
-*.swn
-*.swm
-*.out
-*.pid
+v2/*.7z
+v2/*.csv
+v2/*.dat
+v2/*.dmg
+v2/*.gz
+v2/*.iso
+v2/*.jar
+v2/*.rar
+v2/*.tar
+v2/*.zip
+v2/*.com
+v2/*.class
+v2/*.dll
+v2/*.exe
+v2/*.o
+v2/*.seed
+v2/*.so
+v2/*.swo
+v2/*.swp
+v2/*.swn
+v2/*.swm
+v2/*.out
+v2/*.pid
 
 
 ############################
 # Logs and databases
 ############################
 
-.tmp
-*.log
-*.sql
-*.sqlite
-*.sqlite3
+v2/.tmp
+v2/*.log
+v2/*.sql
+v2/*.sqlite
+v2/*.sqlite3
 
 
 ############################
 # Misc.
 ############################
 
-*#
-ssl
-.idea
-nbproject
-public/uploads/*
-!public/uploads/.gitkeep
+v2/*#
+v2/ssl
+v2/.idea
+v2/nbproject
+v2/public/uploads/*
+v2/!public/uploads/.gitkeep
 
 ############################
 # Node.js
 ############################
 
-lib-cov
-lcov.info
-pids
-logs
-results
-node_modules
-.node_history
-
+v2/lib-cov
+v2/lcov.info
+v2/pids
+v2/logs
+v2/results
+v2/node_modules
+v2/.node_history
 
 ############################
 # Tests
 ############################
 
-testApp
-coverage
+v2/testApp
+v2/coverage
 
 ############################
 # Strapi
 ############################
 
-.env
-license.txt
-exports
-.cache
-build
+v2/.env
+v2/license.txt
+v2/exports
+v2/*.cache
+v2/dist
+v2/build
+v2/.strapi-updater.json
